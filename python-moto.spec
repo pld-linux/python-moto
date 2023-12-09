@@ -2,7 +2,7 @@
 # Conditional build:
 %bcond_with	tests	# unit tests (some sure 2.0.0 issues?)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-moto.spec)
 
 Summary:	Library that allows to easily mock out the boto library
 Summary(pl.UTF-8):	Biblioteka pozwalająca łatwo podstawiać atrapy biblioteki boto
